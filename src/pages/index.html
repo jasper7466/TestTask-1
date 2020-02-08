@@ -22,13 +22,13 @@
     <!-- - - - - - MAIN / SLICER - - - - - -->
     <section class="slicer">
       <h2 class="slicer__title title">Слайсер</h2>
-      <p class="slicer__subtitle subtitle">Утилита для удаления повторяющихся частей из слов.</p>
+      <p class="slicer__subtitle subtitle">Утилита для удаления повторяющихся частей в словах.</p>
       <ul class="slicer__rules-list">
         Правила:
-        <li class="slicer__rules-list-item">Мы не жадные. Можно вводить сколь угодно слов, разделитель - запятая</li>
-        <li class="slicer__rules-list-item">Один элемент - одно слово. Пробелы будут безжалостно удалены!</li>
-        <li class="slicer__rules-list-item">Разрешены все буквы и цифры, кроме спец-символов. Извините ¯\_(ツ)_/¯</li>
-        <li class="slicer__rules-list-item">Регистр значения не имеет. Любите "ЗаБоРчИк"? Добро пожаловать! ;)</li>
+        <li class="slicer__rules-list-item">Можно вводить сколько угодно слов, разделитель - запятая</li>
+        <li class="slicer__rules-list-item">Один элемент - одно слово. Лишние пробелы будут удалены</li>
+        <li class="slicer__rules-list-item">Разрешены буквы и цифры, кроме спец-символов... ¯\_(ツ)_/¯</li>
+        <li class="slicer__rules-list-item">Регистр не важен, можно писать "заборчиком"</li>
       </ul>
       <p class="slicer__subtitle"></p>
       <form class="slicer__form">
@@ -37,9 +37,38 @@
           <textarea class="slicer__data slicer__data_placeholder" placeholder="Здесь будет результат" readonly>Здесь будет результат</textarea>
       </form>
     </section>
+    <!-- - - - - - MAIN / AUTHOR - - - - - -->
+    <section class="author">
+      <h2 class="author__title title">Об авторе</h2>
+      <div class="author__holder">
+        <picture class="author__picture">
+          <source srcset="<%=require('../images/avatar-min.jpg')%>" media="(max-width: 768px)">
+          <img class="author__avatar" src="<%=require('../images/avatar.jpg')%>" alt="Фотография разработчика данного сайта">
+        </picture>
+        <div class="author__text-container">
+          <p class="author__text-content">
+            Привет!
+          </p>
+          <p class="author__text-content">
+            Меня зовут Тимур, я инженер-разработчик радиоэлектронной аппаратуры (hardware).
+          </p>
+          <p class="author__text-content">
+            Прошёл обучение в Яндекс.Практикуме. Освоил достаточный стек технологий, позволяющий стать начинающим фронтенд-разработчиком.
+          </p>
+          <p class="author__text-content">
+            В процессе прохождения курса был получен опыт валидной семантической кроссбраузерной респонсив-вёрстки (flex-box/grid layout) на HTML5/CSS3 по макетам в Figma. Углублены знания JavaScript (ES6), изучен механизм асинхронного программирования для взаимодействия с ответами сервера и сторонними API. Вёрстка и JS-код выполнялись по модульному принципу в соответствии с методологией БЭМ.
+          </p>
+        </div>
+      </div>
+      <div class="author__phone-holder">
+        <div class="author__phone subtitle">+7-ХХХ-ХХХ-ХХ-ХХ</div>
+        <div class="author__phone author__phone_button subtitle">Показать телефон</div>
+      </div>
+    </section>
   </main>
   <!-- - - - - - FOOTER - - - - - -->
   <footer class="footer">
+    <p class="footer__copyright">&copy; 2020 Tim</p>
   </footer>
   <script src="<%= htmlWebpackPlugin.files.chunks.index.entry%>"></script>
 </body>

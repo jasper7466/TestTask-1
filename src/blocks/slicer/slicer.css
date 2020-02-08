@@ -7,6 +7,7 @@
 @import url(./__button/slicer__button.css);
 
 .slicer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    display: block;
 }

@@ -13,7 +13,7 @@
   box-sizing: border-box;
   background-color: black;
   color: white;
-  outline: 8px solid grey;
+  border-bottom: 10px solid gray;
 }
 
 @media screen and (max-width: 768px) {

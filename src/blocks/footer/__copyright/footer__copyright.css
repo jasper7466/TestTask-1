@@ -1,10 +1,8 @@
-.slicer__rules-list {
+.footer__copyright {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 24px;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 5px;
-  }
+    color: white;
+}

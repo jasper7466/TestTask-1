@@ -1,0 +1,14 @@
+@import url(./__avatar/author__avatar.css);
+@import url(./__text-container/author__text-container.css);
+@import url(./__text-content/author__text-content.css);
+@import url(./__title/author__title.css);
+@import url(./__holder/author__holder.css);
+@import url(./__picture/author__picture.css);
+@import url(./__phone-holder/author__phone-holder.css);
+@import url(./__phone/author__phone.css);
+
+.author {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
