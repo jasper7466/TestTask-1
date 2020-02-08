@@ -1,0 +1,12 @@
+@import url(./__title/slicer__title.css);
+@import url(./__subtitle/slicer__subtitle.css);
+@import url(./__rules-list/slicer__rules-list.css);
+@import url(./__rules-list-item/slicer__rules-item.css);
+@import url(./__form/slicer__form.css);
+@import url(./__data/slicer__data.css);
+@import url(./__button/slicer__button.css);
+
+.slicer {
+    width: 100%;
+    display: block;
+}

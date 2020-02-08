@@ -1,0 +1,10 @@
+.slicer__rules-list {
+    font-family: RobotoRegular, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+  }

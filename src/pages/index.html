@@ -15,13 +15,27 @@
   <!-- - - - - - HEADER - - - - - -->
   <header class="header">
     <p class="header__text header__text_logo">Napoleon IT School</p>
-    <p class="header__text header__text_caption">Тестовое задание Offline&nbsp;FrontendDev&nbsp;2020</p>
+    <h1 class="header__text header__text_caption">Тестовое задание Offline&nbsp;FrontendDev&nbsp;2020</h1>
   </header>
-
   <!-- - - - - - MAIN - - - - - -->
   <main class="main">
-    <!-- - - - - - MAIN / XXXXX - - - - - -->
-    <section class="">
+    <!-- - - - - - MAIN / SLICER - - - - - -->
+    <section class="slicer">
+      <h2 class="slicer__title title">Слайсер</h2>
+      <p class="slicer__subtitle subtitle">Утилита для удаления повторяющихся частей из слов.</p>
+      <ul class="slicer__rules-list">
+        Правила:
+        <li class="slicer__rules-list-item">Мы не жадные. Можно вводить сколь угодно слов, разделитель - запятая</li>
+        <li class="slicer__rules-list-item">Один элемент - одно слово. Пробелы будут безжалостно удалены!</li>
+        <li class="slicer__rules-list-item">Разрешены все буквы и цифры, кроме спец-символов. Извините ¯\_(ツ)_/¯</li>
+        <li class="slicer__rules-list-item">Регистр значения не имеет. Любите "ЗаБоРчИк"? Добро пожаловать! ;)</li>
+      </ul>
+      <p class="slicer__subtitle"></p>
+      <form class="slicer__form">
+          <textarea class="slicer__data">мама, МаМа, па Па,      Па   па, брат, #брат2, гипопотам</textarea>
+          <input class="slicer__button" type="button" value="Slice!">
+          <textarea class="slicer__data slicer__data_placeholder" placeholder="Здесь будет результат" readonly>Здесь будет результат</textarea>
+      </form>
     </section>
   </main>
   <!-- - - - - - FOOTER - - - - - -->
