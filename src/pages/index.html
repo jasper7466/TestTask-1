@@ -22,7 +22,7 @@
     <!-- - - - - - MAIN / SLICER - - - - - -->
     <section class="slicer">
       <h2 class="slicer__title title">Слайсер</h2>
-      <p class="slicer__subtitle subtitle">Утилита для удаления повторяющихся частей в словах.</p>
+      <p class="slicer__subtitle subtitle">Утилита для удаления повторяющихся букв в словах.</p>
       <p class="slicer__subtitle subtitle">Правила:</p>
       <ul class="slicer__rules-list">
         <li class="slicer__rules-list-item">Можно вводить сколько угодно слов, разделитель - запятая</li>
@@ -32,9 +32,9 @@
       </ul>
       <p class="slicer__subtitle"></p>
       <form class="slicer__form">
-          <textarea class="slicer__data">мама, МаМа, па Па,      Па   па, брат, #брат2, гипопотам</textarea>
-          <input class="slicer__button" type="button" value="Slice!">
-          <textarea class="slicer__data slicer__data_placeholder" placeholder="Здесь будет результат" readonly>Здесь будет результат</textarea>
+          <textarea class="slicer__data slicer__data_input">мама, МаМа, па Па,  Па   па, брат, гиппо¯\_(ツ)_/¯потам, #брат123</textarea>
+          <input class="slicer__button" type="submit" value="Slice!">
+          <textarea class="slicer__data slicer__data_output slicer__data_placeholder" placeholder="Здесь будет результат" readonly>Здесь будет результат</textarea>
       </form>
     </section>
     <!-- - - - - - MAIN / AUTHOR - - - - - -->

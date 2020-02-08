@@ -9,6 +9,7 @@
     border-radius: 10px;
     border: 1px solid black;
     resize: none;
+    font-size: 17px;
 }
 .slicer__data_placeholder {
     color: gray;
