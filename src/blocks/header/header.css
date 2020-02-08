@@ -1,5 +1,6 @@
-@import url(./__logo/header__logo.css);
-@import url(./__caption/header__caption.css);
+@import url(./__text/header__text.css);
+@import url(./__text/header__text_logo.css);
+@import url(./__text/header__text_caption.css);
 
 .header {
   display: flex;
