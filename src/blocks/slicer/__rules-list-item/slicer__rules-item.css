@@ -1,0 +1,10 @@
+.slicer__rules-list-item {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    list-style: circle;
+    margin: 5px 0;
+    list-style-position: inside;
+  }
