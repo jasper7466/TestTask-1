@@ -7,13 +7,14 @@ import '../styles/index.css';
 import { TextProcessor } from './utilities/TextProcessor';
 
 // Получаем ссылки на необходимые узлы структуры документа
-const submitButton = document.querySelector('.slicer__button');         // Кнопка "Slice!"
+const slicerForm = document.querySelector('.slicer__form');             // Форма "слайсера"
+//const submitButton = document.querySelector('.slicer__button');       // Кнопка "Slice!"
 const phoneButton = document.querySelector('.author__phone_button');    // Кнопка "Показать телефон"
 const inputField = document.querySelector('.slicer__data_input');       // Поле для ввода данных
 const outputField = document.querySelector('.slicer__data_output');     // Поле для вывода данных
 
 // Обработчик кнопки "Slice"
-const sliceButtonHandler = function(event) {
+const slicerSubmitHandler = function(event) {
     // Отключаем дефолтное поведение формы
     event.preventDefault();
     // Инициируем обработку строки
@@ -34,5 +35,5 @@ const phoneButtonHandler = function(event) {
 }
 
 // Развешиваем слушателей событий
-submitButton.addEventListener('click', (event) => sliceButtonHandler(event));
+slicerForm.addEventListener('submit', (event) => slicerSubmitHandler(event));
 phoneButton.addEventListener('click', (event) => phoneButtonHandler(event), {once: true});
