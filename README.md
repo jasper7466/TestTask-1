@@ -21,7 +21,7 @@
 
 ## Актуальная версия
 
- - Версия: [v0.0.1](https://github.com/jasper7466/TestTask-1/tree/v0.0.1)
+ - Версия: [v1.0.0](https://github.com/jasper7466/TestTask-1/tree/v1.0.0)
  - Ссылка на web-станицу: https://jasper7466.github.io/TestTask-1/
 
 ## Как развернуть проект
